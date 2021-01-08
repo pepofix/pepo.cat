@@ -1,6 +1,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  background: #fcf5e2
+  background: #ffffff
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -63,7 +63,6 @@ body {
   margin: 0;
   }
 #main {
-  background-color: ;
   position: relative;
   margin: 0 auto;
   left: 0;
@@ -74,14 +73,13 @@ body {
 }
 .video-main {
   height: 300px;
-  background-color: red;
   position: relative;
   margin: 0px 100px;
   top: 0;
   bottom: 1000px;
 }
 .video {
-  background-color: b313f1;
+  background-color: fffff;
   position: absolute;
   margin: 0px 100px;
   top: 0;
@@ -109,22 +107,4 @@ body {
   max-width: 340px;
   text-align: left;
   z-index: 99999;
-}
-#paypal-button {
-  position: absolute;
-  bottom: 20px;
-  max-width: 80px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  z-index: 99999;
-}
-#copyright {
-  position: absolute;
-  color: black;
-  bottom: 10px;
-  right: 0 auto;
-  width: 100%;
-  font-size: 12px;
-  z-index: 88888;
 }
