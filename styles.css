@@ -6,7 +6,7 @@ body {
   -o-background-size: cover;
   text-align: center;
   image-orientation: center;
-	color: white;
+	color: black;
 }
 *{
  margin: 0;
@@ -73,7 +73,6 @@ body {
 }
 .video-main {
 	with: 70%;
-	background-color: dcdcdd;
   padding: 400px
   height: 500px;
   position: relative;
