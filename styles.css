@@ -75,12 +75,13 @@ text-align: center;
   height: 800px;
 }
 .video-main {
-	with: 55%;
-	min-with:250px;
+with: 55%;
+min-with:250px;
   padding: 30px
   bottom: 1000px;
-	background-color: white;
-	border-radius:9px;
+background-color: white;
+border-radius:9px;
+margin: 0px 300px;
 }
 .tel-main {
 with: 55%;
@@ -89,6 +90,7 @@ with: 55%;
   bottom: 1000px;
 	background-color: white;
 	border-radius:9px;
+	margin: 0px 300px;
 }
 .video {
   background-color: fffff;
