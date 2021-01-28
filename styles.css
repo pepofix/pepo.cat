@@ -152,7 +152,7 @@ color: black;
 }
 @media (max-width: 767px) {
   .fullscreen-bg {
-    background: url('../img/videoframe.jpg') center center / cover no-repeat;
+    background: url('https://silenci.online/img/imatge.jpg') center center / cover no-repeat;
   }
 
   .fullscreen-bg__video {
