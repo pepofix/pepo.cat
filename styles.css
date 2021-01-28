@@ -50,9 +50,8 @@ body {
 #subtitle {
   position: absolute;
   top: 140px;
-  left: auto;
-  right: auto;
-  width: 50%;
+	margin: 0px auto;
+  width: 22%;
   color: black;
   background-color: white;
 	border-radius:9px;
@@ -74,13 +73,15 @@ body {
   height: 800px;
 }
 .video-main {
-	with: 70%;
+	with: 55%;
   padding: 400px
   height: 500px;
   position: relative;
   margin: 0px 100px;
   top: 0;
   bottom: 1000px;
+	background-color: white;
+	border-radius:9px;
 }
 .video {
   background-color: fffff;
