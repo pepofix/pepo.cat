@@ -48,7 +48,8 @@ body {
   margin: 0 10px;
 }
 #subtitle {
-  position: absolute;
+text-align: center;
+  position: relative;
   top: 140px;
 	margin: 0px auto;
   width: 22%;
