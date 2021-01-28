@@ -76,20 +76,16 @@ text-align: center;
 }
 .video-main {
 	with: 55%;
-  padding: 40px
-  height: 500px;
-  position: relative;
-  top: 0;
+	min-with:250px;
+  padding: 30px
   bottom: 1000px;
 	background-color: white;
 	border-radius:9px;
 }
 .tel-main {
 with: 55%;
-  padding: 40px
-  height: 500px;
-  position: relative;
-  top: 0;
+	min-with:250px;
+  padding: 30px
   bottom: 1000px;
 	background-color: white;
 	border-radius:9px;
