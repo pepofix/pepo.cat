@@ -55,6 +55,7 @@ body {
   width: 50%;
   color: black;
   background-color: white;
+	border-radius:9px;
   font-size: 14.5px;
   font-weight: lighter;
   text-transform: uppercase;
