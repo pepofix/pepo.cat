@@ -114,8 +114,10 @@ body {
   text-decoration-style: dashed;
 }
 a:hover {
+	color: black;
   text-decoration: none;
 }
 a:link {
+color: black;
   text-decoration: none;
 }
