@@ -72,6 +72,8 @@ body {
   height: 800px;
 }
 .video-main {
+	with: 70%;
+	background-color: dcdcdd;
   padding: 400px
   height: 500px;
   position: relative;
