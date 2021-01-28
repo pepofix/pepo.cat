@@ -113,3 +113,6 @@ body {
   text-decoration-color: #ffffff;
   text-decoration-style: dashed;
 }
+a:hover {
+  text-decoration: none;
+}
