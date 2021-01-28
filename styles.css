@@ -6,6 +6,7 @@ body {
   -o-background-size: cover;
   text-align: center;
   image-orientation: center;
+	color: white;
 }
 *{
  margin: 0;
