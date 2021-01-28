@@ -53,6 +53,7 @@ text-align: center;
   top: 140px;
 	margin: 0px auto;
   width: 22%;
+	min-with:250px;
   color: black;
   background-color: white;
 	border-radius:9px;
@@ -89,7 +90,7 @@ text-align: center;
   padding: 40px
   height: 500px;
   position: relative;
-  margin: 0px 100px;
+  margin: 0px 300px;
   top: 0;
   bottom: 1000px;
 	background-color: white;
