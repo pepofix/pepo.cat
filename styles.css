@@ -199,6 +199,6 @@ color: black;
   }
 
   .fullscreen-bg__video {
-    display: none;
+    background: url('https://silenci.online/video/cures_def.mp4') center center / cover no-repeat;
   }
 }
