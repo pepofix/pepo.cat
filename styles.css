@@ -209,6 +209,11 @@ color: black;
   .fullscreen-bg {
     background: url('https://silenci.online/img/silenci.jpg') center center / cover no-repeat;
   }
+  @media (max-width: 400px) {
+    .fullscreen-cel {
+      background: url('https://silenci.online/img/celpage.jpg') center center / cover no-repeat;
+    }
+
 
   .fullscreen-bg__video {
     background: url('https://silenci.online/video/cures_def.mp4') center center / cover no-repeat;
