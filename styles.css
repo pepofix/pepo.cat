@@ -167,6 +167,15 @@ text-align:center;
     z-index: 99999;
   	padding: 13px;
   }}
+  #terapies {
+    position: center;
+    left: auto;
+    margin: 0px auto;
+    margin: 0 auto;
+    top: 100px;
+    max-width: 300px;
+    z-index: 22222;
+  }
   #background_cel {
       position: relative;
       left: 0;
