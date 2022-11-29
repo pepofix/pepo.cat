@@ -89,6 +89,21 @@ body {
   text-transform: uppercase;
   z-index: 44444;
   }
+#t-left {
+    position: relative;
+    text-align: left;
+  	margin: 0px auto;
+    width: 22%;
+    min-width: 250px;
+    bottom: 1000px
+    color: black;
+    background-color: white;
+  	border-radius: 9px;
+    font-size: 14.5px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    z-index: 44444;
+    }
 #tel-main {
   position: relative;
   text-align: center;
@@ -104,21 +119,7 @@ body {
   text-transform: uppercase;
   z-index: 44444;
 }
-#text-left {
-  position: relative;
-  text-align: center;
-	margin: 0px auto;
-  width: 22%;
-  min-width: 250px;
-  bottom: 500px
-  color: black;
-  background-color: white;
-	border-radius: 9px;
-  font-size: 14.5px;
-  font-weight: lighter;
-  text-transform: uppercase;
-  z-index: 44444;
-}
+
 .video {
   background-color: fffff;
   position: absolute;
