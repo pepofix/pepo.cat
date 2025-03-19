@@ -1,17 +1,19 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  background: #ffffff
+  background: #ffffff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  background-size: cover;
   text-align: center;
-  image-orientation: center;
-	color: black;
+  color: black;
 }
-*{
+
+* {
  margin: 0;
  padding: 0;
 }
+
 #header {
   position: relative;
   left: 0;
@@ -20,40 +22,39 @@ body {
   width: 100%;
   height: 200px;
 }
+
+#header-logo, #header-logo-shiatsu {
+  position: absolute;
+  margin: 0 auto;
+  top: 45px;
+  transform: translateX(-50%);
+  z-index: 22222;
+}
+
 #header-logo {
-  position: absolute;
-  left: auto;
-  margin: 0px auto;
-  margin: 0 auto;
-  top: 45px;
   max-width: 150px;
-  transform: translate(-50%);
-  z-index: 22222;
 }
+
 #header-logo-shiatsu {
-  position: absolute;
-  left: auto;
-  margin: 0px auto;
-  margin: 0 auto;
-  top: 45px;
   max-width: 100px;
-  transform: translate(-50%);
-  z-index: 22222;
 }
+
 #menu {
-  position:absolute;
+  position: absolute;
   top: 10px;
   left: auto;
   right: auto;
   list-style-type: none;
-  float:left;
+  float: left;
   width: 100%;
   z-index: 33333;
 }
+
 #menu li {
   display: inline-block;
   margin-right: 10px;
 }
+
 #menu li a {
   color: black;
   text-decoration: none;
@@ -61,26 +62,30 @@ body {
 }
 
 #menu a:hover {
-  color: #ff0000;
+  color: #7b7b7b;
   }
+
+
 #subtitle {
   text-align: center;
   position: relative;
   top: 140px;
-	margin: 0px auto;
+  margin: 0 auto;
   width: 22%;
-	min-width:250px;
+  min-width: 250px;
   color: black;
   background-color: white;
-	border-radius: 9px;
+  border-radius: 9px;
   font-size: 12px;
   font-weight: lighter;
   text-transform: uppercase;
   z-index: 44444;
 }
+
 #body {
   margin: 0;
   }
+
 #main {
   position: relative;
   margin: 0 auto;
