@@ -159,6 +159,9 @@ body {
   text-transform: uppercase;
   z-index: 44444;
 }
+.opacity {
+  opacity: 0.5;
+  }
 .video {
   background-color: fffff;
   position: absolute;
