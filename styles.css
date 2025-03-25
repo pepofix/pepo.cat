@@ -100,6 +100,21 @@ body {
   text-transform: none;
   z-index: 44444;
   }
+  #text-center1 {
+    position: relative;
+    text-align: center;
+  	margin: 0px auto;
+    width: 22%;
+    min-width: 100px;
+    bottom: 1000px
+    color: black;
+    background-color: white;
+  	border-radius: 9px;
+    font-size: 12px;
+    font-weight: lighter;
+    text-transform: none;
+    z-index: 44444;
+    }
 #text-center_preus {
   position: relative;
   text-align: left;
