@@ -160,6 +160,21 @@ body {
   text-transform: uppercase;
   z-index: 44444;
 }
+#contact {
+  position: relative;
+  
+	margin: 0px auto;
+  width: 22%;
+  min-width: 250px;
+  color: black;
+  background-color: white;
+	border-radius: 9px;
+  font-size: 11px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  z-index: 44444;
+}
+
 .opacity {
   opacity: 0.5;
   }
