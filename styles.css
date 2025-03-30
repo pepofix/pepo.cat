@@ -30,16 +30,6 @@ body {
   transform: translate(-50%);
   z-index: 22222;
 }
-#header-logo1 {
-  position: absolute;
-  left: auto;
-  margin: 0px auto;
-  margin: 0 auto;
-  top: 45px;
-  max-width: 400px;
-  transform: translate(-50%);
-  z-index: 22222;
-}
 #header-logo-shiatsu {
   position: absolute;
   left: auto;
@@ -170,6 +160,17 @@ body {
   text-transform: uppercase;
   z-index: 44444;
 }
+#contact {
+  position: relative;
+  display: inline-block
+	margin: 5px;
+  width: 22%;
+  min-width: 40px;
+  background-color: white;
+	border-radius: 9px;
+  z-index: 44444;
+}
+
 .opacity {
   opacity: 0.5;
   }
