@@ -160,6 +160,16 @@ body {
   text-transform: uppercase;
   z-index: 44444;
 }
+section {
+  position: relative;
+  display: flex;
+  text-align: center;
+  margin: 0px auto;
+  min-width: 250px;
+  max-width: 300px;
+  border-radius: 5px;
+  font-size: 12px;
+  }
 #contact {
   position: relative;
   display: inline-block;
