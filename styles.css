@@ -163,10 +163,10 @@ body {
 #contact {
   position: relative;
   display: inline-block;
-  margin: 5px;
+  margin: 0px auto;
   background-color: transparent;
-	border-radius: 9px;
-  max-width: 10px:
+	border-radius: 20px;
+  max-width: 350px;
 }
 
 .opacity {
