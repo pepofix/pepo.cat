@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $datos = "Nom: $nombre\nCorreu electrònic: $email\nMissatge: $mensaje\n\n";
 
     // Ruta del archivo donde guardaremos los datos
-    $archivo = 'https://pepo.cat/inscrits.txt';
+    $archivo = 'https://formspree.io/f/mjkyawaa';
 
     // Guardar los datos en el archivo
     file_put_contents($archivo, $datos, FILE_APPEND);
