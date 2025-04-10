@@ -6,7 +6,7 @@ body {
   -o-background-size: cover;
   text-align: center;
   image-orientation: center;
-	color: black;
+	color: #535252;
   background-image: url('fondo.jpg');
 }
 *{
@@ -62,7 +62,7 @@ p {
   display: inline-block;
 }
 #menu li a {
-  color: black;
+  color: #444343;
   text-decoration: none;
   margin: 0 10px;
 }
@@ -73,7 +73,7 @@ p {
 	margin: 0px auto;
   width: 35%;
 	min-width:250px;
-  color: #4b494b;
+  color: #444343;
   background-color: white;
 	border-radius: 9px;
   font-size: 14px;
@@ -95,13 +95,13 @@ p {
 }
 #text-center {
   position: relative;
-  text-align: left;
+  text-align: justify;
 	margin: 0px auto;
   width: 35%;
   min-width: 250px;
   bottom: 1000px
-color: #4b494b;
-background-color: white;
+  color: #535252;
+  background-color: white;
 	border-radius: 9px;
   font-size: 14px;
   font-weight: lighter;
@@ -281,7 +281,7 @@ text-align:center;
             min-height: 400px;
             margin: 30px auto;
             padding: 2px;
-            background-color: #f4f4f4;
+            background-color: #727272;
             border-radius: 10px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
           }
