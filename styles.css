@@ -96,6 +96,7 @@ p {
 #text-center {
   position: relative;
   text-align: justify;
+  text-justify: inter-word;
 	margin: 0px auto;
   width: 35%;
   min-width: 250px;
