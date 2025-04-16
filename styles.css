@@ -109,6 +109,10 @@ h2 {
 #text-center {
   position: relative;
   text-align: justify;
+        hyphens: auto; /* activa la separació amb guions */
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
+        width: 400px; /* per veure l'efecte */
   text-justify: inter-word;
 	margin: 0px auto;
   width: 35%;
