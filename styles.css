@@ -85,7 +85,7 @@ h2 {
   top: 140px;
 	margin: 0px auto;
   width: 35%;
-	min-width:250px;
+	min-width:350px;
   color: #444343;
   background-color: white;
 	border-radius: 9px;
@@ -116,7 +116,7 @@ h2 {
   text-justify: inter-word;
 	margin: 0px auto;
   width: 35%;
-  min-width: 250px;
+  min-width: 350px;
   bottom: 1000px
   color: #535252;
   background-color: white;
@@ -146,7 +146,7 @@ h2 {
   text-align: left;
 	margin: 0px auto;
   width: 35%;
-  min-width: 250px;
+  min-width: 350px;
   bottom: 1000px
   color: black;
   background-color: white;
@@ -161,7 +161,7 @@ h2 {
   text-align: center;
 	margin: 0px auto;
   width: 35%;
-  min-width: 250px;
+  min-width: 350px;
   bottom: 500px
   color: black;
   background-color: white;
@@ -176,7 +176,7 @@ h2 {
   text-align: center;
 	margin: 0px auto;
   width: 22%;
-  min-width: 250px;
+  min-width: 350px;
   color: black;
   background-color: white;
 	border-radius: 9px;
