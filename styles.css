@@ -387,7 +387,7 @@ color: black;
     top: 50%;
     left: 50%;
     width: 100%;      /* Ocupa el 100% del ancho */
-    height: auto;     /* La altura se ajusta proporcionalmente */
+    height: 100%;     /* La altura se ajusta proporcionalmente */
     object-fit: cover; /* El video cubre el área disponible */
     transform: translate(-50%, -50%); /* Centrado del video */
 }
@@ -397,7 +397,7 @@ color: black;
         width: 100%;      /* Ocupa todo el ancho en móviles */
         height: 100%;     /* Ajusta la altura proporcionalmente */
         object-fit: cover; /* Mantiene el video centrado y cubriendo el área */
-        position: absolute; /* Asegura que el video esté centrado */
+        position: center; /* Asegura que el video esté centrado */
     }
 }
 
