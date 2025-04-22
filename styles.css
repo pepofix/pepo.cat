@@ -356,13 +356,11 @@ text-align:center;
             font-size: 16px;
             cursor: pointer;
             transition: background-color 0.5s;
-          }
+}
 
-          #contact-form button:hover {
-            background-color: #45a049;
-          }
-
-
+#contact-form button:hover {
+  background-color: #45a049;
+}
 
 a:hover {
 	color: black;
@@ -410,39 +408,4 @@ color: black;
   .fullscreen-bg__video {
     background: url('https://pepo.cat/video/.mp4') center center / cover no-repeat;
   }
-   .video-background {
-            position: fixed;
-            right: 0;
-            bottom: 0;
-            min-width: 100%;
-            min-height: 100%;
-            z-index: -1;
-            object-fit: repeat cover;
-        }
-
-        .content {
-            position: relative;
-            z-index: 1;
-            color: white;
-            text-align: center;
-            top: 50%;
-            transform: translateY(-50%);
-            font-family: 'Courier New', monospace;
-            white-space: nowrap;
-            overflow: hidden;
-            border-right: .15em solid orange; /* Línia de cursor */
-            width: 24ch; /* Nombre de caràcters visibles */
-            animation: typing 4s steps(24) forwards, blink-caret 0.75s step-end infinite;
-        }
-
-        @keyframes typing {
-            from { width: 0; }
-            to { width: 24ch; }
-        }
-
-        @keyframes blink-caret {
-            from, to { border-color: transparent; }
-            50% { border-color: orange; }
-        }
-  
-
+}
