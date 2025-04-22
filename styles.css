@@ -386,33 +386,27 @@ color: black;
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transform: translate(-50%, -50%);
+    width: 100%;      /* Ocupa el 100% del ancho */
+    height: auto;     /* La altura se ajusta proporcionalmente */
+    object-fit: cover; /* El video cubre el área disponible */
+    transform: translate(-50%, -50%); /* Centrado del video */
 }
 
-@media (min-aspect-ratio: 16/9) {
+@media (max-width: 768px) {
     .fullscreen-bg__video {
-        width: 100%;
-        height: auto;
+        width: 100%;      /* Ocupa todo el ancho en móviles */
+        height: 100%;     /* Ajusta la altura proporcionalmente */
+        object-fit: cover; /* Mantiene el video centrado y cubriendo el área */
+        position: absolute; /* Asegura que el video esté centrado */
     }
 }
 
-@media (max-aspect-ratio: 16/9) {
-    .fullscreen-bg__video {
-        width: auto;
-        height: 100%;
-        position: absolute;
-    }
-}
-
-@media (max-width: 400px) {
+@media (max-width: 700px) {
     .fullscreen-bg {
         background: url('https://pepo.cat/img/silenci.jpg') center / cover no-repeat;
     }
 
     .fullscreen-bg__video {
-        display: block; /* Asegura que el video esté visible en dispositivos pequeños */
+        display: block; /* Asegura que el video esté visible */
     }
 }
